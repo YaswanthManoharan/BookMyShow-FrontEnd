@@ -20,14 +20,14 @@ const DefaultHOC = ({component:Component,...rest})=>{
 
 export default DefaultHOC;
 
-const yas={
-    name:"Yas",
-    age:20,
-};
+// const yas={
+//     name:"Yas",
+//     age:20,
+// };
 
 //const student = pavan;
 
 //student.goodStudent=false;
 
 //Spread operator
-const student ={...yas,goodstudent:true};
+//const student ={...yas,goodstudent:true};

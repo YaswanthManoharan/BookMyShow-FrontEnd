@@ -10,6 +10,7 @@ ReactDOM.render(
     <App />
     </BrowserRouter>
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
 
+//while deploying no error comes (Continous integration)
