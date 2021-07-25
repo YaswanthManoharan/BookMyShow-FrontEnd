@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useContext} from "react";
 import {
   BiChevronRight,
   BiSearch,
@@ -6,13 +6,16 @@ import {
   BiChevronDown,
   BiShareAlt,
 } from "react-icons/bi";
+//context
+import { MovieContext } from "../../context/movie.context";
 
 const NavSm = () => {
+  const{movie}=useContext(MovieContext);
   return (
     <>
       <div className="text-white flex items-center justify-between">
         <div>
-          <h3 className="text-xl font-bold">It All starts Here!</h3>
+          <h3 className="text-xl font-bold">{movie.original_title}</h3>
         </div>
         <div className="w-8 h-8">
           <BiShareAlt className="w-full h-full" />
@@ -45,7 +48,7 @@ const NavLg = () => {
         </div>
         <div className="flex items-center gap-3">
           <span className="text-gray-200 text-xs flex items-center cursor-pointer hover:text-white">
-            Bengaluru <BiChevronDown />
+            Coimbatore <BiChevronDown />
           </span>
           <button className="bg-red-600 text-white px-2 py-1 text-sm rounded">
             Sign in

@@ -21,3 +21,13 @@ ReactDOM.render(
 );
 
 //while deploying no error comes (Continous integration)
+
+/*
+<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+
+https://i.ibb.co/zPBYW3H/imgbin-bookmyshow-office-android-ticket-png.png
+
+
+let razorPay = new window.Razorpay(options);
+
+*/
