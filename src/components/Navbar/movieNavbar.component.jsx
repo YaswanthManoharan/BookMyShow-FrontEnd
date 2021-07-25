@@ -10,7 +10,7 @@ import {
 import { MovieContext } from "../../context/movie.context";
 
 const NavSm = () => {
-  const{movie}=useContext(MovieContext);
+  const {movie}=useContext(MovieContext);
   return (
     <>
       <div className="text-white flex items-center justify-between">
